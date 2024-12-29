@@ -1,95 +1,27 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import Head from "next/head";
 
 export default function Home() {
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol>
-          <li>
-            Get started by editing <code>src/app/page.js</code>.
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.secondary}
-          >
-            Read our docs
-          </a>
+    <>
+    <header className={styles.header}>
+      <span>Label</span>
+    </header>
+    <main className={styles.main}>
+      <h1 className={styles.h1}>Undetectable Papers & Assignments</h1>
+      <section className={styles.section}>
+        <div className={styles.textContainer}>
+          <p>- Fast and quality academic assignments</p>
+          <p>- Text to wats up +38099771243 (time zone - Eastern European Time (EET), which is UTC+2)</p>
+          <p className={styles.pEnd}>Need help with academic assignments? I’m here to make it easy! From research to writing, I’ll guide you step by step. Save time, reduce stress, and achieve great results. Let’s tackle your academic challenges together—no more struggle, just success!</p>
         </div>
-      </main>
-      <footer className={styles.footer}>
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+        <Image className={styles.image} src='/IMG_9489.WEBP' fill style={{objectFit: 'contain'}} alt="Picture of the author"/>
+      </section>
+    </main>
+    <footer className={styles.footer}>
+      <p className={styles.pFooter}>© All rights reserved</p>
+    </footer>
+    </>
   );
 }
