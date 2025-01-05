@@ -19,7 +19,6 @@
   align-self: center;
   display: flex;
   gap: 1.5rem;
-  flex: 1;
   padding: 10px;
 }
 .textContainer{
@@ -30,13 +29,20 @@
   font-size: 1.8rem;
   color: #0c0202;
   text-shadow: 1px 1px 1px #fff;
+  justify-content: space-between;
+}
+.topText{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem
 }
 .pEnd{
   text-align: center;
+  font-weight: bold;
 }
 .image{
- width: 35%;
- height: 35%;
+ width: 38%;
+ height: 38%;
 }
 .footer{
   height: 5vh;
