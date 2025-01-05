@@ -39,7 +39,10 @@
 .pEnd{
   text-align: center;
   font-weight: bold;
-  font-size: 1.3rem;
+  font-size: 1.45rem;
+  flex: 1;
+  display: flex;
+  align-items: center;
 }
 .image{
  width: 38%;
