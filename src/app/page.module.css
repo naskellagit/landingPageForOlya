@@ -1,17 +1,16 @@
 .header{
-  height: 6vh;
   padding: 5px;
 }
 .main{
-  min-height: 89vh;
+  /* min-height: 89vh; */
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  padding: 0 20px;
 }
 .h1{
   color: green;
   font-size: 4rem;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   text-align: center;
   text-shadow: 5px 5px 2px #000;
 }
@@ -50,8 +49,8 @@
  height: 38%;
 }
 .logo{
-  width:100px;
-  height:100px;
+  width:90px;
+  height:90px;
   border-radius: 8px;
 }
 .footer{
