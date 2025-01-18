@@ -2,15 +2,22 @@
   "name": "site",
   "version": "0.1.0",
   "private": true,
+  "main": "server.js",
   "scripts": {
-    "dev": "next dev",
+    "devNext": "next dev",
+    "devExpress": "nodemon .",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
     "next": "^13.5.8",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
   }
 }
