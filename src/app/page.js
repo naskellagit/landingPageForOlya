@@ -21,7 +21,7 @@ export default function Home() {
             <div className={styles.animationContainer}>
               <div>Turn Assignment Pain</div>
               <div className={styles.row2Block}>
-                into
+                <span>into</span>
                 <div className={styles.animationElement}>
                   <div className={styles.animationText}>
                     <div>Academic gain</div>
